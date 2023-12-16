@@ -1,0 +1,150 @@
+body {
+    background-color: #191919;
+}
+
+.Logo {
+    margin-top: 43px;
+}
+
+.header-line {
+    display: flex;
+    justify-content: center;
+}
+
+.menu {
+    margin-left: 777px;
+    margin-top: 46px;
+}
+
+.element-menu {
+    text-decoration: none;
+    color: #fff;
+    padding-left: 40px;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.continiue-header {
+    padding-top: 66px;
+    display: flex;
+    justify-content: center;
+}
+
+.tittle {
+    position: relative;
+    padding-top: 300px;
+    padding-left: 60px;
+}
+
+.first-tittle {
+    font-size: 70px;
+    color: #fff;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.last-tittle {
+    font-size: 80px;
+    position: absolute;
+    top: 473px;
+    left: 222px;
+}
+
+.tittle-listen {
+    font-style: 15px;
+    color: #fff;
+    font-family: 'DM Sans', sans-serif;
+    padding-top: 717px;
+    margin-left: -400px;
+}
+
+.media-element {
+   margin-left: -417px;
+   padding-top: 16px;
+}
+.media-el{
+    padding-left: 17px;
+}
+.block-two{
+    padding-top: 93px;
+}
+.head-blocktwo{
+    display: flex;
+    justify-content: center;
+}
+.tittle-blocktwo{
+    font-style: 64px;
+    font-family: 'DM Sans', sans-serif;
+    color: #fff;
+    letter-spacing: 2.88px;
+}
+.button-blocktwo{
+    padding-top: 38px;
+    padding-left: 609px;
+}
+.btn-blocktwo{
+    color: #ffffff;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 17px;
+    text-decoration: none;
+    background-color: #118DA8;
+    padding: 12px 20px; 
+    border-radius:  6px; 
+
+}
+.episod-3{
+    margin-top: 80px;
+    margin-left: 80px;
+    display: flex;
+    background-color: black;
+    width: 1300px;
+    border-radius: 32px;
+    justify-content: center;
+    padding: 40px 40px;
+    width: 1300px;
+}
+.button-episod3{
+        padding-left: 69px;
+}
+.btn-episode-3{
+    color: #fff;
+    font-style: 18px;
+    font-family: 'DM Sans', sans-serif;
+    text-decoration: none;
+    background-color: #191919;
+    padding: 0px 12px;
+    border-radius:  6px; 
+}
+
+.epi3{
+font-style: 17px;
+font-family: 'DM Sans', sans-serif;
+color:#118DA8 ;
+padding-top: 48px;
+}
+.tittle-episode3{
+    padding-top: 18px;
+    font-size: 64px;
+    font-family: 'DM Sans', sans-serif;
+    color: #fff;
+    line-height: 70.4px;
+    letter-spacing: 2.56px;
+}
+.sup-tittle-epi3{
+    font-size: 22px;
+    font-family: 'DM Sans', sans-serif;
+   color: rgba(255, 255, 255, 0.7);
+   line-height: 33px;
+   padding-top: 28px;
+}
+.button-view-epi3{
+    padding-top: 30px;
+
+}
+.btn-view-epi3{
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: 'DM Sans', sans-serif;
+    background-color: #118DA8;
+    padding: 15px 12px ;
+    border-radius: 6px;
+}
