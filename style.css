@@ -408,8 +408,8 @@ p {
     padding: 0px 12px;
     border-radius: 6px;
     margin-top: 10px;
-    margin-bottom: 240px;
-    margin-right: 310px;
+    margin-bottom: 280px;
+    margin-right: 85px;
 }
 
 .btn-view-add {
@@ -420,6 +420,7 @@ p {
     background-color: #118DA8;
     padding: 5px 12px;
     border-radius: 6px;
+   
 }
 
 .form_input_in {
@@ -427,4 +428,7 @@ p {
     color: rgba(25, 25, 25, 1);
     width: 522px;
 
+}
+.form_in{
+    width: 532px;
 }
