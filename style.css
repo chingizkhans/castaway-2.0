@@ -17,6 +17,13 @@ body {
     transition: 0.5s;
 }
 
+.image{
+    display: block;
+    transition: 1s;
+}
+.image:hover{
+    padding: 100px;
+}
 .element-menu {
     text-decoration: none;
     color: #fff;
@@ -480,6 +487,7 @@ p {
     border-radius: 32px;
     margin-left: 70px;
     margin-top: 200px;
+
 }
 
 .text-s {
@@ -491,31 +499,73 @@ p {
     padding-top: 60px;
 
 }
-.text-ss{
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+    margin-left: 700px;
+    margin-top: -175px;
+}
+
+.text-ss {
     color: rgba(255, 255, 255, 1);
     font-family: 'DM Sans', sans-serif;
     font-size: 72px;
     line-height: 79px;
     padding-left: 60px;
+    letter-spacing: 2.88px;
+}
+
+.bb1 {
+    background-color: rgba(25, 25, 25, 1);
+    border-radius: 6px;
+    width: 522px;
+    height: 82px;
+    border-color: #191919;
+    border: 1px;
+    padding-top: 10px;
+    padding-bottom: 0px;
+    margin-bottom: 20px;
+}
+
+.bb2 {
+    background-color: rgba(25, 25, 25, 1);
+    border-radius: 6px;
+    width: 522px;
+    height: 82px;
+    border-color: #191919;
+    border: 1px;
+    margin-left: 0px;
+    margin-top: 0px;
+    padding-bottom: 10px;
 
 }
-.bb1{
-    background-color: rgba(25, 25, 25, 1);
-    border-radius: 6px;
-    width: 522px;
-    height: 82px;
-    border-color: #191919;
-    border: 1px;
-    
+
+.button-w {
+    position: relative;
+    display: block;
+    margin-left: 1022px;
+    margin-top: 20px;
+    transition: 1s;
 }
-.bb2{
-    background-color: rgba(25, 25, 25, 1);
-    border-radius: 6px;
-    width: 522px;
-    height: 82px;
-    border-color: #191919;
-    border: 1px;
-margin-left: 180px;
+
+.button-w:hover {
+    color: #080602;
+
+padding: 10px 10px 10px 10px;
+}
+
+.textsub {
+    background-color: #118DA8;
+    width: 170px;
+    height: 48px;
+    border-radius: 32px;
+    border: #118DA8;
+    transition: 0.8s;
+}
+.textsub:hover{
+    background-color: #cc7d06;
+    padding: 10px;
 }
 /* COMENTS */
 
