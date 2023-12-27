@@ -1,45 +1,94 @@
-@media screen and (max-width: 1300px) {
-	.container{
-		max-width: 960px;
-	}
+/* Общие стили, которые применяются для всех размеров экрана */
+body {
+    background-color: #191919;
 }
-@media screen and (max-width: 990px) {
-	.container{
-		max-width: 750px;
-	}
+
+.Logo {
+    margin-top: 43px;
 }
-@media screen and (max-width: 780px) {
-	.container{
-		max-width: 510px;
-	}
+
+.header-line {
+    display: flex;
+    justify-content: center;
 }
-@media screen and (max-width: 540px) {
-	.container{
-		max-width: 420px;
-	}
+
+/* ... Добавьте остальные стили ... */
+
+/* Медиа-запрос для экранов шириной 1200px и более (десктоп) */
+@media (min-width: 1200px) {
+    .menu {
+        margin-left: 777px;
+    }
+
+    .image {
+        display: block;
+        transition: 1s;
+    }
+
+    .image:hover {
+        margin: 100px;
+    }
+    
+    /* ... Добавьте другие стили для десктопа ... */
 }
-@media screen and (max-width: 1300px) {
-	.container{
-		max-width: 960px;
-	}
+
+/* Медиа-запрос для экранов шириной от 992px до 1199px (ноутбуки и планшеты) */
+@media (min-width: 992px) and (max-width: 1199px) {
+    .menu {
+        margin-left: 577px;
+    }
+
+    .image {
+        display: block;
+        transition: 1s;
+    }
+
+    .image:hover {
+        margin: 100px;
+    }
+    
+    /* ... Добавьте другие стили для ноутбуков и планшетов ... */
 }
-@media screen and (max-width: 990px) {
-	.container{
-		max-width: 750px;
-	}
+
+/* Медиа-запрос для экранов шириной от 768px до 991px (планшеты и маленькие ноутбуки) */
+@media (min-width: 768px) and (max-width: 991px) {
+    .menu {
+        margin-left: 477px;
+    }
+
+    .image {
+        display: block;
+        transition: 1s;
+    }
+
+    .image:hover {
+        margin: 100px;
+    }
+    
+    /* ... Добавьте другие стили для планшетов и маленьких ноутбуков ... */
 }
-@media screen and (max-width: 780px) {
-	.container{
-		max-width: 510px;
-	}
+
+/* Медиа-запрос для экранов шириной менее 767px (телефоны и маленькие устройства) */
+@media (max-width: 767px) {
+    .menu {
+        margin-left: 0; /* Пример значения, которое вам подходит */
+    }
+
+    .image {
+        display: block;
+        transition: 1s;
+    }
+
+    .image:hover {
+        margin: 100px;
+    }
+    .tittle{
+        margin-right: 50px;
+    }
+    /* ... Добавьте другие стили для телефонов и маленьких устройств ... */
 }
-@media screen and (max-width: 540px) {
-	.container{
-		max-width: 420px;
-	}
+@media (min-width: 990x){
+.hover{
+display: block;
 }
-@media screen and (max-width: 450px) {
-	.container{
-		max-width: 100%;
-	}
 }
