@@ -17,13 +17,15 @@ body {
     transition: 0.5s;
 }
 
-.image{
+.image {
     display: block;
     transition: 1s;
 }
-.image:hover{
-    padding: 100px;
+
+.image:hover {
+    margin: 100px;
 }
+
 .element-menu {
     text-decoration: none;
     color: #fff;
@@ -490,6 +492,13 @@ p {
 
 }
 
+.text-button {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 15px;
+    line-height: 28.8px;
+    font-family: 'DM Sans', sans-serif;
+}
+
 .text-s {
     color: #118DA8;
     font-family: 'DM Sans', sans-serif;
@@ -552,7 +561,7 @@ p {
 .button-w:hover {
     color: #080602;
 
-padding: 10px 10px 10px 10px;
+    padding: 10px 10px 10px 10px;
 }
 
 .textsub {
@@ -563,10 +572,12 @@ padding: 10px 10px 10px 10px;
     border: #118DA8;
     transition: 0.8s;
 }
-.textsub:hover{
+
+.textsub:hover {
     background-color: #cc7d06;
     padding: 10px;
 }
+
 /* COMENTS */
 
 .coment-1 {
@@ -582,7 +593,7 @@ padding: 10px 10px 10px 10px;
 .coment-1:hover {
     background-color: #000000d0;
     margin-top: 60px;
-    margin-right: 60px;
+    margin-right: 0px;
     border-color: #ff9900;
     border-style: solid;
     padding: 10px;
@@ -702,7 +713,7 @@ padding: 10px 10px 10px 10px;
     margin-top: 60px;
     padding: 10px;
     margin-left: 60px;
-    margin-right: 60px;
+    margin-right: 0px;
     border-style: ridge;
     border-color: #cc7d06;
 }
@@ -745,7 +756,7 @@ padding: 10px 10px 10px 10px;
 .coment-1-2:hover {
     margin-top: 60px;
     padding: 10px;
-    margin-top: 60px;
+    margin-top: 120px;
     border-style: ridge;
     border-color: #cc7d06;
 }
@@ -828,4 +839,9 @@ padding: 10px 10px 10px 10px;
 
 .media-element-1 {
     margin-left: 100px;
+}
+
+.footer-block{
+    display: block;
+    position: sticky;
 }
