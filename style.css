@@ -29,7 +29,7 @@ body {
 .element-menu {
     text-decoration: none;
     color: #fff;
-    padding-left: 40px;
+    padding-left: 30px;
     font-family: 'DM Sans', sans-serif;
     transition: 0.5s;
 }
@@ -48,6 +48,7 @@ body {
     position: relative;
     padding-top: 300px;
     padding-left: 60px;
+    display: block;
 }
 
 .first-tittle {
@@ -187,6 +188,8 @@ body {
     transition: 0.6s;
 }
 
+
+
 .btn-view-epi3:hover {
     color: #080602;
     background-color: #cc7d06;
@@ -274,9 +277,18 @@ body {
 }
 
 .button-view-epi2 {
-    padding-top: 30px;
 
+    border: none;
+    font-size: 17px;
+    color: #fff;
+    border-radius: 7px;
+    font-weight: 700;
+    text-transform: uppercase;
+    transition: 0.5s;
+    transition-property: box-shadow;
+    margin-top: 20px;
 }
+
 
 .image-episode-2 {
     margin-right: 70px;
@@ -301,10 +313,11 @@ body {
     transition: 0.8s;
 }
 
-.episode-1:hover {
-    background-color: #252525d7;
-    margin-top: 60px;
+.btn-view-epi2:hover {
+    color: #080602;
+    background-color: #cc7d06;
 }
+
 
 .display-tetx {
     padding-left: 69px;
@@ -390,8 +403,9 @@ body {
 .arrow-image {
     padding-top: 268px;
     transition: 1s;
-    
+
 }
+
 .meet {
     padding-top: 20px;
     font-style: 18px;
@@ -423,6 +437,7 @@ body {
     transition: 1s;
     padding-left: 70px;
 }
+
 .contact {
     display: flex;
     background-color: black;
@@ -578,7 +593,7 @@ p {
     border-radius: 32px;
     width: 423px;
     height: 321px;
-    margin-left: 85px;
+    margin-left: 80px;
     margin-top: 200px;
     transition: 1s;
 }
@@ -763,20 +778,23 @@ p {
     margin-top: 16px;
     transition: 1s;
 }
-.bb1-1{
+
+.bb1-1 {
     font-family: 'DM Sans', sans-serif;
     color: #fff;
     font-size: 24px;
     padding-left: 20px;
     padding-top: 0px;
 }
-.bb2-2{
+
+.bb2-2 {
     font-family: 'DM Sans', sans-serif;
     color: #fff;
     font-size: 24px;
     padding-left: 20px;
     padding-top: 0px;
 }
+
 .coment-1-3:hover {
     margin-top: 60px;
     padding: 10px;
@@ -847,7 +865,7 @@ p {
     margin-left: 100px;
 }
 
-.footer-block{
+.footer-block {
     display: block;
 
 }
@@ -857,3 +875,49 @@ p {
     max-width: 1300px;
     margin: 0 auto;
 }
+
+
+
+
+
+
+
+/* body {
+    display: flex;
+    height: 100vh;
+  
+    align-items: center;
+    justify-content: center;
+  }
+   */
+button {
+    /* display: inline-block;
+
+    width: 240px;
+    height: 60px;
+
+    border-radius: 27px;
+
+    color: #fff;
+    font: 700 14px/60px "Droid Sans", sans-serif;
+    letter-spacing: 0.05em;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.button .inner {
+    position: relative;
+
+    z-index: 2;
+}
+
+.button canvas {
+    position: absolute;
+    top: -50px;
+    right: -50px;
+    bottom: -50px;
+    left: -50px;
+
+    z-index: 1;
+} */
